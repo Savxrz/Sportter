@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
+import fondoMensajes from '../assets/fondoMensajes.png';
+
 import {
   mensajeService,
   setupWebSocket,
@@ -1454,7 +1456,7 @@ function PantallaMensajes() {
                 ref={messagesEndRef}
                 style={{
                   flex: 1,
-                  backgroundImage: `url('../assets/fondoMensajes.png')`,
+                  backgroundImage: `url(${fondoMensajes})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   padding: "1rem",
