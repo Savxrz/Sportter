@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://sportter.vercel.app", allowCredentials = "true")
 public class UsuarioController {
 
 	@Autowired
