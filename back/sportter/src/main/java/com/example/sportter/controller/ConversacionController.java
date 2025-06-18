@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
+@CrossOrigin(origins = "https://sportter.vercel.app", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/conversaciones")
 public class ConversacionController {

@@ -18,6 +18,8 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+@CrossOrigin(origins = "https://sportter.vercel.app", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/mensajes")
 public class MensajeController {

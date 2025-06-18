@@ -21,6 +21,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+
+@CrossOrigin(origins = "https://sportter.vercel.app", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/equipos")
 public class EquipoController {
