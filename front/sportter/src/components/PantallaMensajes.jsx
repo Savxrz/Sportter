@@ -1454,7 +1454,7 @@ function PantallaMensajes() {
                 ref={messagesEndRef}
                 style={{
                   flex: 1,
-                  backgroundImage: `url('./assets/fondoMensajes.png')`,
+                  backgroundImage: `url('../assets/fondoMensajes.png')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   padding: "1rem",
