@@ -204,6 +204,8 @@ public class PublicacionController {
 		}
 	}
 	
+	
+	@CrossOrigin(origins = "https://sportter.vercel.app", allowCredentials = "true")
 	@PostMapping(value = "/crearPubli", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
 	public ResponseEntity<Publicacion> crearPublicacion(
 	    @RequestParam String contenido,
