@@ -3,7 +3,7 @@ import axios from "axios";
 import SockJS from "sockjs-client";
 import { Stomp, Client } from "@stomp/stompjs";
 
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://sportterbackapp.onrender.com";
 
 
 export const loginUser = async (credentials) => {
