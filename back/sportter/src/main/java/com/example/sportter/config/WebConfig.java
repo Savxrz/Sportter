@@ -15,7 +15,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOriginPatterns("https://sportter.vercel.app/")
+                        .allowedOriginPatterns("https://sportter.vercel.app")
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
@@ -23,4 +23,5 @@ public class WebConfig {
         };
     }
 }
+
 
